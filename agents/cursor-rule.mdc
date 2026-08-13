@@ -1,0 +1,23 @@
+---
+description: Use the Guarantee Risk Scan skill for A-share cumulative guarantee risk monitoring and alert reports.
+alwaysApply: false
+---
+
+# Guarantee Risk Scan Skill
+
+When the user asks to scan A-share holdings for cumulative guarantee risks, monitor guarantee ratios, flag excess guarantee events, generate guarantee risk reports, or schedule recurring guarantee risk scans, use the local skill package.
+
+Preferred local project path:
+
+```text
+.cursor/skills/guarantee-risk-scan
+```
+
+Workflow:
+
+1. Read `.cursor/skills/guarantee-risk-scan/SKILL.md`.
+2. For detailed API fields and risk classification logic, also read `.cursor/skills/guarantee-risk-scan/references/api_guide.md`.
+3. Use the local `pandadata-api` skill for exact method contracts before any real API call.
+4. Set environment variables PANDA_DATA_USERNAME and PANDA_DATA_PASSWORD before calling `run()`.
+5. Preserve source method names, query parameters, data dates, risk thresholds, and stale-data notes.
+6. Do not invent data interfaces, credentials, fields, disclosure dates, or trading advice.

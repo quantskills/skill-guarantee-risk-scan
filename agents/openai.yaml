@@ -1,0 +1,4 @@
+interface:
+  display_name: "Guarantee Risk Scan"
+  short_description: "A-share cumulative guarantee risk monitoring"
+  default_prompt: "Use $guarantee-risk-scan to scan A-share holdings for cumulative guarantee risks."
