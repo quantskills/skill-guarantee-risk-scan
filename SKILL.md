@@ -113,6 +113,10 @@ result = run({
 - See `生产产物/SKILL.md` for production usage details
 
 ## Dependencies
-- panda_data >= 0.0.12
+- panda_data==1.0.6
 - numpy
 - pandas
+
+## Pandadata compatibility
+
+[Pandadata 1.0.6 compatibility](references/pandadata-compatibility.md) — exact SDK baseline, validation scope, and shared guidance for all supported agent runtimes.
